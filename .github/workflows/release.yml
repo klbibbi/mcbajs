@@ -70,7 +70,7 @@ jobs:
     - name: Upload to Hangar
       run: |
         curl -X POST "https://hangar.papermc.io/api/v1/projects/klbibbi/dogpoop/versions" \
-          -H "Authorization: ${{ secrets.HANGAR_API_KEY }}" \
+          -H "Authorization: HangarAuth ${{ secrets.HANGAR_API_KEY }}" \
           -H "Content-Type: multipart/form-data" \
           -F "version-string=${{ steps.get_version.outputs.VERSION }}" \
           -F "channel=Release" \
