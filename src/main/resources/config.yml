@@ -1,0 +1,15 @@
+# DogPoop Plugin Configuration
+
+# How often the scheduler runs (in minutes)
+scheduler-interval-minutes: 1
+
+# Probability that a dog poops (1/X chance)
+# 30 means 1/30 chance each time the scheduler runs
+poop-chance: 30
+
+# How many cocoa beans are dropped
+cocoa-beans-amount: 2
+
+# Distance from player for dog to be able to poop (in blocks)
+player-distance: 50
+

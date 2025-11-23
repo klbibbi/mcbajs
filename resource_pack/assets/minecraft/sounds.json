@@ -1,0 +1,12 @@
+{
+  "custom.dog_poop": {
+    "sounds": [
+      {
+        "name": "custom/poop-plop",
+        "stream": false
+      }
+    ],
+    "subtitle": "Hund bajsar"
+  }
+}
+

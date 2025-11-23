@@ -1,0 +1,7 @@
+name: DogPoop
+version: '${project.version}'
+main: com.mcbajs.dogpoop.DogPoopPlugin
+api-version: '1.21.10'
+author: mcbajs
+description: Dogs poop cocoa beans with sound effects
+
